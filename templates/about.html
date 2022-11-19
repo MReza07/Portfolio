@@ -1,0 +1,114 @@
+
+{% extends 'base.html' %}
+    {% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}"/>
+
+ {% block title %}
+     About
+        {% endblock title %}
+
+{% block c %}
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class="text-center py-3 ">{{ title }}</h2>
+          <p class="text-center py-2">{{ aboutdese }}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="{% static 'img1/about.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Python_Django Developer</h3>
+            <p class="fst-italic">
+              To expand skills and experience within the market and organizations and be employed in industry, government, or entrepreneurial endeavors to demonstrate professional advancement through significant technical achievements and expanded leadership responsibility,
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 2 Dec 1988</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +8801722467851</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong>  Dhaka, Bangladesh</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 33</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> B.S.C in ECE</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>PhEmailone:</strong> email@example.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p>Looking for a promising & challenging career which will enable me to provide best of my technical, analytical & professional skills. A career which can sharpen my current Experience, skills and Knowledge and where I can have a good scope for learning and implementing new technologies</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class="text-center py-4">My Skills</h2>
+          <p>Six years (06) work experience in the Telecommunication sector. Working in the major field of Radio Frequency Planning and Optimization, Network Coverage Enhancement Solutions with multinational operators and vendors like Citycell, Grameenphone, WARID Telecom, AKTEL(Robe), Motorolla, Huawei and Ericsson. Extensive experience in LTE Planning and Optimization, Design, layout coverage and antenna distribution, Link budget, EIRP calculation, documentation, and Optimization. Back Office complains handling. Repeater solutions for pocket coverage and TMB-TMA solutions</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+           <div class="container mt-3">
+            <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                 </div>
+                  </div>
+                <div class="container mt-3">
+              <div class="progress">
+                <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                 </div>
+                  </div>
+                <div class="container mt-3">
+              <div class="progress">
+                <span class="skill">Bootstrap <i class="val">70%</i></span>
+              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                 </div>
+                  </div>
+                 </div>
+
+          <div class="col-lg-6">
+
+            <div class="container mt-3">
+              <div class="progress">
+                <span class="skill">javascript <i class="val">75%</i></span>
+              <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:75%"></div>
+                 </div>
+                  </div>
+
+           <div class="container mt-3">
+              <div class="progress">
+                <span class="skill">Python <i class="val">75%</i></span>
+              <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width:75%"></div>
+                 </div>
+                  </div>
+            <div class="container mt-3">
+              <div class="progress">
+                <span class="skill">Django<i class="val">75%</i></span>
+              <div class="progress-bar  bg-dark progress-bar-striped progress-bar-animated" style="width:75%"></div>
+                 </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+        {% endblock c %}
